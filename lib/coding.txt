@@ -1,0 +1,10 @@
+Container(
+            color: Colors.lightBlueAccent,
+            alignment: Alignment.center,
+            margin: EdgeInsets.all(10),
+      child: Text('Ini Halaman Aplikasi Saya',
+      style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold ,
+      color: Colors.blueAccent),
+        ),
+       
+      ),
