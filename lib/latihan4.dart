@@ -12,14 +12,14 @@ class Latihan4 extends StatelessWidget {
           ),
           body: ListView(children: <Widget>[
             Container(
-                height: 400,
-                width: 10,
+                height: 500,
+                width: 100,
                 margin: EdgeInsets.all(30),
                 padding: EdgeInsets.all(40),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(40),
                     gradient: LinearGradient(
-                        colors: [Colors.lightBlueAccent, Colors.pink])),
+                        colors: [Colors.lightBlueAccent, Colors.white70 ,Colors.pink])),
                 child: ClipOval(
                   child: Image.asset(
                     'assets/images/ereh.jpg',
@@ -33,15 +33,20 @@ class Latihan4 extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 gradient: LinearGradient(
-                    colors: [Colors.lightBlueAccent, Colors.lightBlueAccent]),
+                    colors: [Colors.lightBlue, Colors.white70 , Colors.grey]),
               ),
               child: Column(
                 children: [
                   Text(
                    "  Eren Yeager (エレン・イェーガー Eren Yēgā?) was a" 
                    "former member of the Survey Corps. He was the main protagonist of Attack on Titan. He lived in Shiganshina District with his parents until the fall of Wall Maria, where he impotently witnessed his mother being eaten by a Titan.[32] This event would lead to Eren's intense hatred towards the Titans as he swore to wipe all of them off the face of the Earth.",
-                    style: TextStyle(fontSize: 25),
+                    style: TextStyle(fontSize: 25,
+                    color: Colors.black87,
+                     fontWeight: FontWeight.bold,
+                    fontStyle: FontStyle.italic),
                     textAlign: TextAlign.justify,
+                   
+                    
                   )
                 ],
               ),
@@ -51,8 +56,8 @@ class Latihan4 extends StatelessWidget {
               children: [
                 Container(
                     margin: EdgeInsets.all(30),
-                    height: 120,
-                    width: 170,
+                    height: 200,
+                    width: 190,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         gradient: LinearGradient(
@@ -65,8 +70,8 @@ class Latihan4 extends StatelessWidget {
                     )),
                 Container(
                   margin: EdgeInsets.all(30),
-                  height: 120,
-                  width: 170,
+                  height: 200,
+                  width: 190,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       gradient: LinearGradient(
@@ -85,8 +90,8 @@ class Latihan4 extends StatelessWidget {
               children: [
                 Container(
                     margin: EdgeInsets.all(30),
-                    height: 120,
-                    width: 170,
+                    height: 200,
+                    width: 190,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         gradient: LinearGradient(
@@ -99,8 +104,8 @@ class Latihan4 extends StatelessWidget {
                     )),
                 Container(
                   margin: EdgeInsets.all(30),
-                  height: 120,
-                  width: 170,
+                  height: 200,
+                  width: 190,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       gradient: LinearGradient(
@@ -119,8 +124,8 @@ class Latihan4 extends StatelessWidget {
               children: [
                 Container(
                     margin: EdgeInsets.all(30),
-                    height: 120,
-                    width: 170,
+                    height: 200,
+                    width: 190,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         gradient: LinearGradient(
@@ -133,8 +138,8 @@ class Latihan4 extends StatelessWidget {
                     )),
                 Container(
                   margin: EdgeInsets.all(30),
-                  height: 120,
-                  width: 170,
+                  height: 200,
+                  width: 190,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       gradient: LinearGradient(
@@ -153,8 +158,8 @@ class Latihan4 extends StatelessWidget {
               children: [
                 Container(
                     margin: EdgeInsets.all(30),
-                    height: 120,
-                    width: 170,
+                    height: 200,
+                    width: 190,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         gradient: LinearGradient(
@@ -167,8 +172,8 @@ class Latihan4 extends StatelessWidget {
                     )),
                 Container(
                   margin: EdgeInsets.all(30),
-                  height: 120,
-                  width: 170,
+                  height: 200,
+                  width: 190,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       gradient: LinearGradient(
@@ -187,8 +192,8 @@ class Latihan4 extends StatelessWidget {
               children: [
                 Container(
                     margin: EdgeInsets.all(30),
-                    height: 120,
-                    width: 170,
+                    height: 200,
+                    width: 190,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         gradient: LinearGradient(
@@ -201,8 +206,8 @@ class Latihan4 extends StatelessWidget {
                     )),
                 Container(
                   margin: EdgeInsets.all(30),
-                  height: 120,
-                  width: 170,
+                  height: 200,
+                  width: 190,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       gradient: LinearGradient(
