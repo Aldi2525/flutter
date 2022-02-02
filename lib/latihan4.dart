@@ -8,9 +8,18 @@ class Latihan4 extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            title: Text("Flamingo"),
+            title: Text("Aplikasi"),
           ),
-          body: ListView(children: <Widget>[
+          
+          body: ListView(children: <Widget>[   
+            
+            Container(
+              child :Text('Eren Yeager',        
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold,
+             fontStyle: FontStyle.italic),
+             textAlign: TextAlign.center,
+            ),
+             ),
             Container(
                 height: 500,
                 width: 100,
@@ -39,8 +48,11 @@ class Latihan4 extends StatelessWidget {
                 children: [
                   Text(
                    "  Eren Yeager (エレン・イェーガー Eren Yēgā?) was a" 
-                   "former member of the Survey Corps. He was the main protagonist of Attack on Titan. He lived in Shiganshina District with his parents until the fall of Wall Maria, where he impotently witnessed his mother being eaten by a Titan.[32] This event would lead to Eren's intense hatred towards the Titans as he swore to wipe all of them off the face of the Earth.",
-                    style: TextStyle(fontSize: 25,
+                   "former member of the Survey Corps. He was the main protagonist of Attack on Titan." 
+                   "He lived in Shiganshina District with his parents until the fall of Wall Maria, where he impotently witnessed his mother being eaten by a Titan.[32] This event would lead to Eren's intense hatred towards the Titans as he swore to wipe all of them off the face of the Earth."
+                   "        Soon afterward, his father, Grisha Yeager," 
+                   "found him and gave him the key to his basement, instructing Eren to find it at all costs and retake Wall Maria.[34] He then injected Eren with a Titan serum.",
+                    style: TextStyle(fontSize: 15,
                     color: Colors.black87,
                      fontWeight: FontWeight.bold,
                     fontStyle: FontStyle.italic),
