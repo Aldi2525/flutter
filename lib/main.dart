@@ -15,9 +15,14 @@ import 'listviewbuilder2.dart';
 import 'listviewseparated.dart';
 import 'listviewseparated2.dart';
 import 'latihan4.dart';
+import 'gridview.dart';
+import 'gridviewcount.dart';
+import 'gridviewbuilder.dart';
+import 'gridviewcustom.dart';
+import 'gridviewextent.dart';
 
 void main() {
-  runApp(const Latihan4());
+  runApp(const Gridview());
 }
 
 class MyApp extends StatelessWidget {
